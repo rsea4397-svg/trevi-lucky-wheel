@@ -1,0 +1,61 @@
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+<div class="app">
+  <header>
+    <div class="logo">TREVI</div>
+    <div class="clinic">特萊薇美學診所</div>
+    <h1>幸運轉盤</h1>
+    <p class="subtitle">2026 年終慶・感恩回饋</p>
+  </header>
+
+  <div class="wheel-area">
+    <div class="pointer"></div>
+    <canvas id="wheel" width="600" height="600"></canvas>
+    <div class="wheel-center">TREVI</div>
+  </div>
+
+  <button id="spinBtn" onclick="spinWheel()">
+    點擊開始抽獎
+  </button>
+
+  <section class="record">
+    <h2>已轉次數：<span id="spinCount">0</span> 次</h2>
+    <h3>中獎紀錄</h3>
+    <div id="history">尚無抽獎紀錄</div>
+    <button id="resetBtn" onclick="resetWheel()"
+style="margin-top:20px;padding:12px 22px;
+background:#65152f;color:#fff4dc;
+border:2px solid #e9c77e;
+border-radius:25px;font-size:16px;
+cursor:pointer;">
+下一位客人／重新開始
+</button>
+  </section>
+
+  <section class="rules">
+  <h3>活動說明</h3>
+
+  <p>
+    活動期間，單筆消費每滿25,000元，
+    即可參加幸運轉盤1次；
+    滿50,000元享2次，以此類推。
+  </p>
+
+  <p>
+    抽獎完成後，請截圖保留中獎紀錄，
+    並出示予現場工作人員確認。
+  </p>
+
+  <p>
+    活動獎項不得轉售、兌換現金
+    或更換其他等值商品及療程。
+  </p>
+
+  <p>
+    活動期間：2026.11.16－2027.01.31
+  </p>
+
+  <p>
+    診所保留最終解釋權與終止權
+  </p>
+</section>
