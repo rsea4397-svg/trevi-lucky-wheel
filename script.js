@@ -3,6 +3,7 @@
 
 // 獎項及機率（僅供內部程式使用）
 const prizes = [
+  const prizes = [
   { name: "外泌體面膜\n3片", weight: 30 },
   { name: "肌潤點滴\n1堂", weight: 27 },
   { name: "外泌體面膜\n5片", weight: 4 },
