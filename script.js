@@ -3,15 +3,13 @@
 
 // 獎項及機率（僅供內部程式使用）
 const prizes = [
-  const prizes = [
-  { name: "外泌體面膜\n3片", weight: 30 },
-  { name: "肌潤點滴\n1堂", weight: 27 },
+  { name: "外泌體面膜\n3片", weight: 29 },
+  { name: "肌潤點滴\n1堂", weight: 28 },
   { name: "外泌體面膜\n5片", weight: 4 },
-  { name: "速升媞外泌體\n導入1堂", weight: 26 },
-  { name: "精華安瓶\n10ml", weight: 8 },
-  { name: "美國755皮秒\n雷射1堂", weight: 5 }
+  { name: "速升媞外泌體\n導入1堂", weight: 27 },
+  { name: "精華安瓶\n10ml", weight: 6 },
+  { name: "美國755皮秒\n雷射1堂", weight: 6 }
 ];
- 
 
 const canvas = document.getElementById("wheel");
 const ctx = canvas.getContext("2d");
