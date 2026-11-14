@@ -7,8 +7,8 @@ const prizes = [
   { name: "肌潤點滴\n1堂", weight: 27 },
   { name: "外泌體面膜\n5片", weight: 4 },
   { name: "速升媞外泌體\n導入1堂", weight: 27 },
-  { name: "精華安瓶\n10ml", weight: 6 },
-  { name: "美國755皮秒\n雷射1堂", weight: 8 }
+  { name: "精華安瓶\n10ml", weight: 7 },
+  { name: "美國755皮秒\n雷射1堂", weight: 7 }
 ];
 
 const canvas = document.getElementById("wheel");
